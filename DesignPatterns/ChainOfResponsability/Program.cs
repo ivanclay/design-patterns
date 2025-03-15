@@ -7,7 +7,7 @@ Console.WriteLine("Results No Patterns");
 Console.WriteLine("-------------------");
 for (int i = 0; i < days.Length; i++)
 {
-    Execute.ExecuteWithPattern(values[i], days[i]);
+    Execute.ExecuteNoPattern(values[i], days[i]);
 }
 Console.WriteLine("===========================");
 
